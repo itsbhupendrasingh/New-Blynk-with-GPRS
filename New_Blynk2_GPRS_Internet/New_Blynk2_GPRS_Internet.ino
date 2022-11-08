@@ -49,7 +49,7 @@ void setup()
   pinMode(device1, OUTPUT);
   pinMode(device2, OUTPUT);
   Serial.println("Serial Begin... Waiting for GSM Modem Activation");
-  delay(3000);
+  delay(1000);
   Serial.println("Initializing modem...");
   modem.restart();
 
